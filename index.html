@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Logo" class="logo-img">
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link">CSE A</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">CSE B</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">CSE C</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">CSE D</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">CSE E</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">CSE F</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="login-container">
+            <h2>Login</h2>
+            <form class="login-form" id="loginForm">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="username@gmail.com" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
+                <div class="forgot-password">
+                    <a href="forgot-password.html">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn-signin">Sign in</button>
+            </form>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
